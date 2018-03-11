@@ -36,6 +36,10 @@ class App extends Component {
         this.title.classList.remove('show')
       }
     })
+    window.addEventListener('resize', () => {
+      console.log(this.main.style.height)
+      this.main.style.height = `${window.outerHeight}px`
+    })
   }
 
   hoverIn () {
@@ -59,11 +63,13 @@ class App extends Component {
   }
 
   render () {
+    const styleish = {height: `${window.outerHeight}`}
     const { hoverBurger, sidebarOpen, scrolled } = this.state
     return (
       <div className='container'
         ref={node => this.container = node}>
-        <main className='main'>
+        <main className='main'
+          ref={node => this.main = node}>
           <div className='tint tint-main' />
           <nav ref={node => this.nav = node}>
             <h4 ref={node => this.title = node}>GIO'S</h4>
