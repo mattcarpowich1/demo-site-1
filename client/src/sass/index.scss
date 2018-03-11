@@ -1,4 +1,4 @@
-$black: #181814;
+$black: #282828;
 $light-gray: #DADAD7;
 $white: white;
 $red: #e54a22;
@@ -127,7 +127,7 @@ nav h4 {
   opacity: 0;
   position: absolute;
   bottom: calc(30px - ((28px + (36 - 28) * (100vw - 320px)/(960-320)) / 2));
-  left: calc(18px + (36 - 18) * (100vw - 320px)/(960-320));
+  left: calc(12px + (36 - 18) * (100vw - 320px)/(960-320));
   transition: opacity .3s ease;
   color: $white;
   font-size: calc(28px + (36 - 28) * (100vw - 320px)/(960-320));
@@ -210,7 +210,7 @@ nav h4.show {
   height: 20px;
   width: 32px;
   position: fixed;
-  top: 21px;
+  top: 20px;
   right: calc(18px + (36 - 18) * (100vw - 320px)/(960-320));
   display: flex;
   flex-direction: column;
@@ -237,8 +237,8 @@ nav h4.show {
 // }
 
 .logo-image {
-  height: calc(72px + (152 - 72) * (100vw - 320px)/(960-320));
-  width: calc(72px + (152 - 72) * (100vw - 320px)/(960-320));
+  height: calc(64px + (144 - 72) * (100vw - 320px)/(960-320));
+  width: calc(64px + (144 - 72) * (100vw - 320px)/(960-320));
   position: absolute;
   top: 22px;
   left: calc(18px + (36 - 18) * (100vw - 320px)/(960-320));
@@ -281,7 +281,7 @@ section {
 
 section.the-food {
   background-image: url('./gios-3.jpg');
-  background-position: center center;
+  // background-position: center center;
   // background-color: white;
   height: 75vh;
 }

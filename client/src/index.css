@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
-  background: #181814;
+  background: #282828;
   color: white; }
 
 .container {
@@ -49,7 +49,7 @@ aside.sidebar-open {
   padding: 5vh 0; }
 
 .sidebar-menu-option {
-  color: #181814;
+  color: #282828;
   font-size: calc(24px + (24 - 16) * (100vw - 320px)/(960-320));
   font-family: "Open Sans", sans-serif; }
 
@@ -76,7 +76,7 @@ aside.sidebar-open {
   width: 100vw;
   opacity: 0;
   transition: opacity 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
-  background-color: #181814; }
+  background-color: #282828; }
 
 .veil-active {
   opacity: 1;
@@ -106,7 +106,7 @@ nav h4 {
   opacity: 0;
   position: absolute;
   bottom: calc(30px - ((28px + (36 - 28) * (100vw - 320px)/(960-320)) / 2));
-  left: calc(18px + (36 - 18) * (100vw - 320px)/(960-320));
+  left: calc(12px + (36 - 18) * (100vw - 320px)/(960-320));
   transition: opacity .3s ease;
   color: white;
   font-size: calc(28px + (36 - 28) * (100vw - 320px)/(960-320));
@@ -165,7 +165,7 @@ nav h4.show {
   height: 20px;
   width: 32px;
   position: fixed;
-  top: 21px;
+  top: 20px;
   right: calc(18px + (36 - 18) * (100vw - 320px)/(960-320));
   display: flex;
   flex-direction: column;
@@ -183,8 +183,8 @@ nav h4.show {
   background-color: white; }
 
 .logo-image {
-  height: calc(72px + (152 - 72) * (100vw - 320px)/(960-320));
-  width: calc(72px + (152 - 72) * (100vw - 320px)/(960-320));
+  height: calc(64px + (144 - 72) * (100vw - 320px)/(960-320));
+  width: calc(64px + (144 - 72) * (100vw - 320px)/(960-320));
   position: absolute;
   top: 22px;
   left: calc(18px + (36 - 18) * (100vw - 320px)/(960-320));
@@ -199,7 +199,7 @@ h1 {
   z-index: 3;
   margin: 0;
   padding: 0;
-  text-shadow: 4px 4px 24px #181814; }
+  text-shadow: 4px 4px 24px #282828; }
 
 h2 {
   font-family: "Archivo Narrow", sans-serif;
@@ -210,7 +210,7 @@ h2 {
   z-index: 3;
   margin: 0;
   padding: 0;
-  text-shadow: 4px 4px 24px #181814; }
+  text-shadow: 4px 4px 24px #282828; }
 
 section {
   width: 100%;
@@ -223,7 +223,6 @@ section {
 
 section.the-food {
   background-image: url("./gios-3.jpg");
-  background-position: center center;
   height: 75vh; }
 
 section.the-space {
@@ -295,7 +294,7 @@ input, textarea {
   border: none;
   width: calc(100% - 8px);
   padding: 4px;
-  background-color: #181814;
+  background-color: #282828;
   border: 1px solid #222225;
   color: white;
   font-size: calc(14px + (20 - 14) * (100vw - 320px)/(960-320));
