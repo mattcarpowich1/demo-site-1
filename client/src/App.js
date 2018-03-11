@@ -36,10 +36,6 @@ class App extends Component {
         this.title.classList.remove('show')
       }
     })
-    window.addEventListener('resize', () => {
-      console.log(this.main.style.height)
-      this.main.style.height = `${window.outerHeight}px`
-    })
   }
 
   hoverIn () {
